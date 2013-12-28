@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>◖∅ᴥ∅◗</title>
+  <script src="/javascripts/main.js"></script>
+  <link rel="stylesheet" href="/stylesheets/base.css">
+</head>
+<body>
+  <div class="body">
+    <h1>◖∅ᴥ∅◗ Make a Collage ◖∅ᴥ∅◗</h1>
+    <div class="current">
+      Current Image: <img src="" alt="" id="currentimage"> Scale: <input type="text" id="scale-input"><button id="scale-button">Update</button>
+      <!-- <a href="javascript:Collage.canvas.toDataURL('image/jpeg');" download="download" >Download as jpeg</a> -->
+      <button id="export-button">Download as PNG</button>
+    </div>
+    <div id="menu">
+      <input type="text" id="upload-input">
+      <button id="upload-button">Add Image From URL</button>
+      <div id="error">Sorry, that image URL is invalid.</div>
+      <img src="images/alien.png" alt="" class="drawtool" id="alien">
+      <img src="images/pink_blue.png" class="drawtool" alt="" id="pink-blue">
+      <img src="images/light_glitter.png" class="drawtool" alt="" id="light_glitter">
+      <img src="images/pizza.png" alt="" class="drawtool" id="pizza">
+      <img src="images/pokeball.png" alt="" class="drawtool" id="pokeball">
+      <img src="images/windows_xp.png" alt="" class="drawtool" id="windows">
+      <img src="images/barbie.png" alt="" class="drawtool" id="barbie">
+    </div>
+
+    <canvas id="container" height="500" width="500"></canvas>
+  </div>
+</body>
+</html>
