@@ -20,8 +20,9 @@ body {
 
 
 img {
-  max-width: 30px;
-  max-height: 30px;
+  width: 30px;
+  /*padding-top: 5px;*/
+  /*max-height: 30px;*/
 }
 
 canvas {
@@ -38,6 +39,8 @@ canvas {
   width: 80px;
   margin-left: 100px;
   text-align: left;
+
+  /*padding-right: 10px;*/
   /*margin-left: 520px;*/
   /*margin-right: 0;*/
 }
