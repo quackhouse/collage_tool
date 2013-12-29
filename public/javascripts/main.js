@@ -61,8 +61,7 @@ Collage.mouseup = function(e) {
 // };
 
 Collage.setCurrentImage = function() {
-  var currentDisplay = document.getElementById('currentimage');
-  currentDisplay.src = this.src;
+  var source = this.src;
   var URL = this.src;
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "/convert?image_url=" + URL, true);
@@ -73,6 +72,8 @@ Collage.setCurrentImage = function() {
       var newImg = document.createElement('img');
       newImg.src = imgSrc;
       Collage.currentImage = newImg;
+      var currentDisplay = document.getElementById('currentimage');
+      currentDisplay.src = source;
     }
   };
 };
