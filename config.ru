@@ -1,2 +1,2 @@
-require './collage_tool'
+require './converter'
 run Sinatra::Application
