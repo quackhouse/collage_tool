@@ -4,6 +4,9 @@ body {
   /*padding: 0;*/
   /*background-color: #37FDFC;*/
   /*background-color: #facade;*/
+  background: url('http://th06.deviantart.net/fs70/PRE/f/2010/286/9/7/kawaii_background_by_cherrii_yunie-d30o0mt.jpg');
+  background-size: cover;
+  /*opacity: 0.5;*/
   /*color: white;*/
 }
 
@@ -11,7 +14,10 @@ body {
   width: 960px;
   margin: 0 auto;
   text-align: center;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
 }
+
 
 img {
   max-width: 30px;
