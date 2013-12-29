@@ -2,7 +2,6 @@ var Collage = Collage || {};
 
 Collage.begin = function() {
   Collage.canvas = document.getElementById('container');
-  // Collage.currentImage = document.getElementById('pink-blue');
   Collage.context = Collage.canvas.getContext('2d');
   Collage.context.fillStyle = 'white';
   Collage.context.fillRect(0,0, Collage.canvas.width, Collage.canvas.height);
