@@ -5,3 +5,5 @@ TO DO:
 Fix scaling - currently breaks over a certain size and under 1.
 
 Improve UI!
+
+Built by [ducky](http://www.duckymusic.com) for [iCkY mag](http://www.ickymag.com).
